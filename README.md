@@ -123,7 +123,7 @@ You can skip to Step 1 now. If you are interested, there is some info below on w
 After installing `conda`, verify that you can create a new environment. 
 
  - Open your terminal application (e.g. Windows: Command Prompt, or macOS: Terminal).
- - Create your first conda environment by typing in the code below and hitting return.
+ - Copy/Paste the code below and press `return`. This will take a few minutes.
  
  ```bash
  conda create --name test python=3.10 -y # the -y flag answers 'yes' to questions during environment creation 
@@ -138,26 +138,26 @@ After installing `conda`, verify that you can create a new environment.
      <img src="./screenshots/win_conda_env_created.png" alt="Successful env creation">
     </details>
  
- - Now that you have created the environment you need to activate it, run:
+ - As it suggests, you should activate the environment. Copy/Paste the code below and press `return`:
  
  ```bash
  conda activate test
  ```
- 
+
  - You should notice the command line now begins `(test)`, this indicates the environment is activated.
- - Now we need to install some Python software packages, we do this with `pip` the Python package manager:
+ - We now need to install some Python software packages (at present all we have is python itself). To do this with `pip` the Python package manager. Copy/paste the code below and press `return` (NB this may take 2 mins, wait until you have a  flashing cursor again):
  
  ```bash
  pip install jupyterlab pandas numpy
  ```
  
- - Now we need to 'register' the kernel (this makes it accessible to jupyter lab)
+ - Now we need to 'register' the kernel (this makes it accessible to jupyter lab). Copy/paste the code below and press `return`:
  
  ```bash
  python -m ipykernel install --user --name test
  ```
  
- - Finally, we will start a jupyter lab session (we will explain what this is)
+ - Finally, we will start a jupyter lab session (we will explain what jupyter lab is later). Copy/paste the code below and press `return`:
  
  ```bash
  jupyter lab
