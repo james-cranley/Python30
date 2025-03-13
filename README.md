@@ -42,14 +42,14 @@ We forgive you. This session is just aimed at demystifying coding and for brevit
    - Follow the installation prompts. You can typically accept the default settings.
    - See screenshots for suggested settings.
   
-  <details>
-    <summary>Show Windows MiniForge Installer Screenshots</summary>
-    <img src="./screenshots/win_install_1.png" alt="Installer Step 1">
-    <br>
-    <img src="./screenshots/win_install_2.png" alt="Installer Step 2">
-    <br>
-    <img src="./screenshots/win_install_3.png" alt="Installer Step 3">
-  </details>
+     <details>
+       <summary>Show Windows MiniForge Installer Screenshots</summary>
+       <img src="./screenshots/win_install_1.png" alt="Installer Step 1">
+       <br>
+       <img src="./screenshots/win_install_2.png" alt="Installer Step 2">
+       <br>
+       <img src="./screenshots/win_install_3.png" alt="Installer Step 3">
+     </details>
 
 3. **Initialise `conda`:**
    - In the Windows Start menu search for **Miniforge Prompt**.
