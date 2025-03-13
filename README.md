@@ -28,7 +28,7 @@ While `conda` is open source and free to use, it was originally developed as par
    - See screenshots for suggested settings.
   
   <details>
-    <summary>Show Windows Installer Screenshots</summary>
+    <summary>Show Windows MiniForge Installer Screenshots</summary>
     <img src="./screenshots/win_install_1.png" alt="Installer Step 1">
     <br>
     <img src="./screenshots/win_install_2.png" alt="Installer Step 2">
@@ -37,21 +37,27 @@ While `conda` is open source and free to use, it was originally developed as par
   </details>
 
 3. **Initialise `conda`:**
-   - In the Windows Start menu search for **Miniforge prompt**.
-   - When miniforge prompt has opened, type `conda init` and hit return (see screenshot).
+   - In the Windows Start menu search for **Miniforge Prompt**.
+   - When Miniforge Prompt has opened, type `conda init` and hit return (see screenshot).
    - After it runs Exit Miniforge prompt and restart it.
    - Conda should now be initialsed and conda commands should work in the Miniforge Prompt application as well as other commmand line applications such as Command Prompt (installed on Windows machines by default)
 
    <details>
-     <summary>Screenshot of Download Page</summary>
-     <img src="./screenshots/win_conda_init.png" alt="MiniForge Releases as of 2025-03-13">
+     <summary>Screenshot `conda` intialisation</summary>
+     <img src="./screenshots/win_conda_init.png" alt="Running conda init">
    </details>
 
  4. **Make a test environment:**
-    - Open a termianl applciation (e.g. Start >> Command Prompt) and create your first conda environment.
+    - Open a terminal applciation (e.g. Start >> Command Prompt) and create your first conda environment.
     ```bash
     conda create --name test python=3.10 -y # the -y flag answers 'yes' to questions during environment creation 
     ```
+    - You should see it spring into action and isntall a bunch of stuff. If successful it will conclude by suggesting you activate the environment.
+
+    <details>
+     <summary>Screenshot `conda` test enviroment creation</summary>
+     <img src="./screenshots/win_conda_env_created.png" alt="Successful env creation">
+    </details>
 
 ---
 
