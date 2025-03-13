@@ -28,19 +28,30 @@ While `conda` is open source and free to use, it was originally developed as par
    - See screenshots for suggested settings.
   
   <details>
-  <summary>Show Windows Installer Screenshots</summary>
-  <img src="./screenshots/win_install_1.png" alt="Installer Step 1">
-  <br>
-  <img src="./screenshots/win_install_2.png" alt="Installer Step 2">
-  <br>
-  <img src="./screenshots/win_install_3.png" alt="Installer Step 3">
+    <summary>Show Windows Installer Screenshots</summary>
+    <img src="./screenshots/win_install_1.png" alt="Installer Step 1">
+    <br>
+    <img src="./screenshots/win_install_2.png" alt="Installer Step 2">
+    <br>
+    <img src="./screenshots/win_install_3.png" alt="Installer Step 3">
   </details>
 
-
 3. **Initialise `conda`:**
-   - In the Windows Start menu search for `miniforge prompt`.
+   - In the Windows Start menu search for **Miniforge prompt**.
    - When miniforge prompt has opened, type `conda init` and hit return (see screenshot).
-   - This will initialise conda.
+   - After it runs Exit Miniforge prompt and restart it.
+   - Conda should now be initialsed and conda commands should work in the Miniforge Prompt application as well as other commmand line applications such as Command Prompt (installed on Windows machines by default)
+
+   <details>
+     <summary>Screenshot of Download Page</summary>
+     <img src="./screenshots/win_conda_init.png" alt="MiniForge Releases as of 2025-03-13">
+   </details>
+
+ 4. **Make a test environment:**
+    - Open a termianl applciation (e.g. Start >> Command Prompt) and create your first conda environment.
+    ```bash
+    conda create --name test python=3.10 -y # the -y flag answers 'yes' to questions during environment creation 
+    ```
 
 ---
 
