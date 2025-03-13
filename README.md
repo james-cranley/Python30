@@ -39,8 +39,8 @@ While `conda` is open source and free to use, it was originally developed as par
 3. **Initialise `conda`:**
    - In the Windows Start menu search for **Miniforge Prompt**.
    - When Miniforge Prompt has opened, type `conda init` and hit return (see screenshot).
-   - After it runs Exit Miniforge prompt and restart it.
-   - Conda should now be initialsed and conda commands should work in the Miniforge Prompt application as well as other commmand line applications such as Command Prompt (installed on Windows machines by default)
+   - After it runs exit Miniforge Prompt to cofirm changes.
+   - `conda` has now been initialsed and `conda` commands should work in the Miniforge Prompt application as well as other terminal applications such as Command Prompt (installed on Windows machines by default)
 
    <details>
      <summary>Screenshot `conda` intialisation</summary>
