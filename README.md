@@ -34,7 +34,7 @@ You can skip to Step 1 now. If you are interested, there is some info below on w
 1. **Download the Installer:**
    - Installers are frequently updated. As of March 2025, you can download the latest Windows installer [HERE](https://github.com/conda-forge/miniforge/releases/download/25.1.1-2/Miniforge3-25.1.1-2-Windows-x86_64.exe)
    - Future versions can be downloaded from the Miniforge GitHub Releases page
-   - Windows will say it doesn't trust the file. You can force it to 'keep anyway'.
+   - Windows may say it doesn't trust the file. You can force it to 'keep anyway'.
   
      <details>
        <summary>Screenshot: Ask Windows to 'trust' the download</summary>
