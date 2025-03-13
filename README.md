@@ -85,14 +85,27 @@ You can skip to Step 1 now. If you are interested, there is some info below on w
      ```bash
      bash Miniforge3-$(uname)-$(uname -m).sh
      ```
-   - Follow the on-screen instructions to complete the installation.
-      1. Press return to start reviewing the licence. Then press the down arrow ⬇️ on your keyboard to go through the licence. It will eventually ask you to enter yes/no, type `yes` and press return to accept the terms (see screenshots).
-      2. Press return to accept the default location (`/Users/<yourusername>/miniforge3`)
-      3. It will then install (takes about 1 min). ‼️ After installing it gives you a confusing screen (see screenshot). The question is `Do you wish to update your shell profile...`. Enter `yes` and press return.
+   - Follow the on-screen instructions to complete the installation:
+      1. Press `return` to start reviewing the licence. Then press the down arrow ⬇️ on your keyboard to go through the licence. It will eventually ask you to enter yes/no, type `yes` and press `return` to accept the terms (see screenshots).
+  
+             <details>
+               <summary>Screenshots: review conda licence</summary>
+               <img src="./screenshots/mac_conda_install_1.png" alt="Installer Step 1">
+               <br>
+               <img src="./screenshots/mac_conda_install_2.png" alt="Installer Step 2">
+             </details>
+
+      2. Press `return` to accept the default location (`/Users/<yourusername>/miniforge3`)
+      3. It will then install (takes about 1 min).
+      4. ‼️ After installing it gives you a confusing screen (see screenshot). The question is `Do you wish to update your shell profile...?`. Enter `yes` and press `return`.
+  
              <details>
                <summary>Screenshot: Update shell profile</summary>
                <img src="./screenshots/mac_conda_install_4.png" alt="Update shell profile">
              </details>
+     
+      5. 
+             
    - Once finished, exit Terminal to confirm installation.
 
 ---
