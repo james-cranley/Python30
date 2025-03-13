@@ -18,7 +18,7 @@ While `conda` is open source and free to use, it was originally developed as par
 
 **But I am an `R` person...**
 
-We forgive you. This session is just aimed at demystifying coding and for brevity we focus on one language: python. Also `conda` works well for isolating `R` environments.
+We forgive you. This session is just aimed at demystifying coding and for brevity we focus on one language: Python. Also `conda` works well for isolating `R` environments.
 
 
 ## Step 1: Install `conda`
@@ -108,7 +108,7 @@ After installing `conda`, verify that you can create a new environment.
  ```
  
  - You should notice the command line now begins `(test)`, this indicates the environment is activated.
- - Now we need to install some python software packages, we do this with `pip` the Python package manager:
+ - Now we need to install some Python software packages, we do this with `pip` the Python package manager:
  
  ```bash
  pip install jupyterlab pandas numpy
