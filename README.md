@@ -127,7 +127,7 @@ After installing `conda`, verify that you can create a new environment.
  jupyter lab
  ```
  
- - This should open your browser to a page that looks like the screenshot below. Note the Python icons with `test` written in them (I've highlighted them in red boxes).
+ - This should open your web browser to a page that looks like the screenshot below. Note the Python icons with `test` written in them (I've highlighted them in red boxes).
  
     <details>
      <summary>Screenshot Jupyter Lab</summary>
