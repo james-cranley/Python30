@@ -24,7 +24,7 @@ We forgive you. This session is just aimed at demystifying coding and for brevit
 
 1. **Download the Installer:**
    - Go to the [Miniforge GitHub releases page](https://github.com/conda-forge/miniforge/releases).
-   - Download the latest Windows installer. These are frequently updated. Look for a file similar to `Miniforge3-...-Windows-x86_64`. You may need to click on a triangle **Assests** toggle to see the latest releases (see screenshot).
+   - Download the latest Windows installer. These are frequently updated. Look for a file similar to `Miniforge3-...-Windows-x86_64`. You may need to click on a triangle **Assets** toggle to see the latest releases (see screenshot).
 
    <details>
      <summary>Screenshot of Download Page</summary>
@@ -48,8 +48,8 @@ We forgive you. This session is just aimed at demystifying coding and for brevit
 3. **Initialise `conda`:**
    - In the Windows Start menu search for **Miniforge Prompt**.
    - When Miniforge Prompt has opened, type `conda init` and hit return (see screenshot).
-   - After it runs exit Miniforge Prompt to cofirm changes.
-   - `conda` has now been initialsed and `conda` commands should work in the Miniforge Prompt application as well as other terminal applications such as Command Prompt (installed on Windows machines by default)
+   - After it runs exit Miniforge Prompt to confirm changes.
+   - `conda` has now been initialised and `conda` commands should work in the Miniforge Prompt application as well as other terminal applications such as Command Prompt (installed on Windows machines by default)
 
    <details>
      <summary>Screenshot `conda` intialisation</summary>
@@ -129,4 +129,4 @@ After installing `conda`, verify that you can create a new environment.
   <img src="./screenshots/win_jupyterlab.png" alt="WHat Jupyter Lab should look like if it works.">
  </details>
  
- **If you do not see jupyter lab with these icons then something has gone wrong. Please contact me in advance** since we won't have time to troublehsoot installation on the day...
+ **If you do not see jupyter lab with these icons then something has gone wrong. Please contact me in advance** since we won't have time to troubleshoot installation on the day...
