@@ -1,6 +1,6 @@
 # Python in 30mins
 
-QuickStart guide to using Python for data science in 30 minutes!
+A QuickStart guide to using Python for data science in 30 minutes!
 
 In advance of this session please install `conda`. Instructions are below. If questions please email me. It should take <5 mins.
 
