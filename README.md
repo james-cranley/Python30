@@ -6,21 +6,29 @@
 
 This will be a 'quick start' guide to using Python for data science in 30 minutes!
 
-If you want to code along on the day on your own laptop then, **in advance of the session**, please install `conda`.
+If you want to code along on the day please install `conda` on your own laptop **in advance of the session**.
 
-Instructions to do this (for Windows and Mac) are below, it should take <5 mins. You're successful if you've completed Step 2 😊. If you have questions please email me.
+Instructions to install `conda` (for Windows and Mac) are below, it should take <5 mins. You're successful if you've completed Step 2 😊. If you have questions please email me.
+
+‼️ If you are using a 'work laptop' you may be blocked from installing new software, so use your own laptop if you have one.
 
 Note: This is a primer aimed to get people new to programming off the ground. If you are experienced it will be a bit dull for you!
 
-**What is `conda`?**
+<details>
+  <summary>What is `conda`?</summary>
 
-[**`conda`**](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html) is a package and environment manager that allows you to install Python and associated packages in isolated environments on your computer. This means you can have different versions of Python and libraries working side by side without interference. Using isolated environments is a best practice that enhances reproducibility.
+  [**`conda`**](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html) is a package and environment manager that allows you to install Python and associated packages in isolated environments on your computer. This means you can have different versions of Python and libraries working side by side without interference. Using isolated environments is a best practice that enhances reproducibility.
 
-While `conda` is open source and free to use, it was originally developed as part of the Anaconda suite. However, Anaconda includes many packages that you might not need and, in some cases, may lead to costs (especially in certain academic or enterprise settings). [**`Miniforge`**](https://github.com/conda-forge/miniforge) is a lightweight, open-source installer for `conda` that intentionally avoids channels which might incur costs.
+  While `conda` is open source and free to use, it was originally developed as part of the Anaconda suite. However, Anaconda includes many packages that you might not need and, in some cases, may lead to costs (especially in certain academic or enterprise settings). [**`Miniforge`**](https://github.com/conda-forge/miniforge) is a lightweight, open-source installer for `conda` that intentionally avoids channels which might incur costs.
 
-**But I am an `R` person...**
+</details>
 
-We forgive you. This session is just aimed at demystifying coding and for brevity we focus on one language: Python. Also, `conda` works well for isolating `R` environments.
+<details>
+  <summary>But I am an `R` person...</summary>
+
+  We forgive you. This session is just aimed at demystifying coding and, for brevity, we focus on one language: Python. Also, `conda` works well for isolating `R` environments.
+
+</details>
 
 
 ## Step 1: Install `conda`
