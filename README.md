@@ -104,7 +104,7 @@ You can skip to Step 1 now. If you are interested, there is some info below on w
            <img src="./screenshots/mac_conda_install_4.png" alt="Update shell profile">
          </details>
 
-      5. It will conclude by saying:
+      5. It will chug along for another minute and then conclude by saying:
     
          ```bash
          ==> For changes to take effect, close and re-open your current shell. <==
