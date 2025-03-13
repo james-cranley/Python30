@@ -1,14 +1,17 @@
-# Python in 30mins  
-Quickstart guide to using Python for data science in 30 minutes!
+# Python in 30mins
 
-## Step 1: Install `conda`
+QuickStart guide to using Python for data science in 30 minutes!
 
-### What is `conda`?
+In advance of this session please install `conda`. Instructions are below. If questions please email me. It should take <5 mins.
+
+**What is `conda`?**
 
 `conda` is a package and environment manager that allows you to install Python and associated packages in isolated environments on your computer. This means you can have different versions of Python and libraries working side by side without interference. Using isolated environments is a best practice that enhances reproducibility (see [FAIR principles](https://en.wikipedia.org/wiki/FAIR_data)).
 
 While `conda` is open source and free to use, it was originally developed as part of the Anaconda suite. However, Anaconda includes many packages that you might not need and, in some cases, may lead to costs (especially in certain academic or enterprise settings). **Miniforge** is a lightweight installer for `conda` that intentionally avoids channels which might incur costs.
 
+
+## Step 1: Install `conda`
 ---
 
 ### Windows
@@ -52,34 +55,19 @@ While `conda` is open source and free to use, it was originally developed as par
 ### macOS
 
 1. **Download the Installer:**
-   - Visit the [Miniforge GitHub releases page](https://github.com/conda-forge/miniforge/releases).
-   - Download the installer for your Mac:
-     - **Intel-based Macs:** Download `Miniforge3-...-MacOSX-x86_64.sh` (red arrow in screenshot)
-     - **Apple Silicon (M1/M2/M3/M4):** Download `Miniforge3-...-MacOSX-arm64.sh` (blue arrow in screenshot)
-
-     <details>
-     <summary>Screenshot of Download Page</summary>
-     <img src="./screenshots/mac_releases.png" alt="MiniForge Releases as of 2025-03-13. , Red arrow if Intel chip.">
-     </details>
+   - Open the **Terminal** application (comes installed on all macs).
+   - Copy/Paste the following code and hit return. This downloads the latest installer for your mac (and intelligently chooses the Mac Silicon or Intel installer)
+     ```bash
+     curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
+     ```
+   - 
 
 2. **Run the Installer:**
-   - Open the **Terminal** application.
-   - Navigate to your Downloads folder (or the folder where the installer is located):
+   - Now that the installer has downloaded, copy/paste the following and hit return. This executes the installer.
      ```bash
-     cd ~/Downloads
-     ```
-   - Run the installer script (replace `<installer-file>` with the actual file name):
-     ```bash
-     bash <installer-file>
+     bash Miniforge3-$(uname)-$(uname -m).sh
      ```
    - Follow the on-screen instructions to complete the installation.
-
-3. **Verify the Installation:**
-   - Open a new Terminal window and run:
-     ```bash
-     conda --version
-     ```
-   - The conda version should appear, confirming that the installation was successful.
 
 ---
 
