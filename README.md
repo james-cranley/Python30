@@ -1,6 +1,10 @@
 # Python in 30mins
+---
 
-A QuickStart guide to using Python for data science in 30 minutes!
+*Last Updated: 2025-03-13*  
+*Contact: [James.cranley@nhs.net](mailto:James.cranley@nhs.net)*
+
+This will be a 'quick start' guide to using Python for data science in 30 minutes!
 
 If you want to code along on the day, **in advance of the session** please install `conda`. Instructions are below, it should take <5 mins. You're successful if you've completed Step 2 😊. If you have questions please email me.
 
