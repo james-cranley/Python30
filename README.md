@@ -123,7 +123,7 @@ You can skip to Step 1 now. If you are interested, there is some info below on w
 After installing `conda`, verify that you can create a new environment. 
 
  - Open your terminal application (e.g. Windows: Command Prompt, or macOS: Terminal).
- - Copy/Paste the code below and press `return`. This will take a few minutes.
+ - Copy/Paste the code below into the terminal and press `return`. NB This will take a few minutes.
  
  ```bash
  conda create --name test python=3.10 -y # the -y flag answers 'yes' to questions during environment creation 
@@ -131,7 +131,7 @@ After installing `conda`, verify that you can create a new environment.
  
  - You should see it spring into action and install a bunch of stuff.
  - This has created an environment called `test` that has its own version of Python (v3.10) installed in it.
- - If successful it will conclude by suggesting you activate the environment (see screenshot).
+ - If successful, it will conclude by suggesting you activate the environment (see screenshot).
     
     <details>
      <summary>Screenshot `conda` test environment creation</summary>
@@ -144,8 +144,8 @@ After installing `conda`, verify that you can create a new environment.
  conda activate test
  ```
 
- - You should notice the command line now begins `(test)`, this indicates the environment is activated.
- - We now need to install some Python software packages (at present all we have is python itself). To do this with `pip` the Python package manager. Copy/paste the code below and press `return` (NB this may take 2 mins, wait until you have a  flashing cursor again):
+ - You should notice the command line now begins `(test)`, this indicates the `test` environment is activated.
+ - We now need to install some Python software packages (at present all we have is python itself). To do this with `pip` the Python package manager. Copy/paste the code below and press `return` (NB this may take 2 mins and it pauses at the end, **wait until you have a flashing cursor again before continuing**):
  
  ```bash
  pip install jupyterlab pandas numpy
