@@ -124,4 +124,5 @@ After installing `conda`, verify that you can create a new environment.
   <summary>Screenshot Jupyter Lab</summary>
   <img src="./screenshots/win_jupyterlab.png" alt="WHat Jupyter Lab should look like if it works.">
  </details>
- - **If you do not see this then contact me in advance**. We won't have time to troublehsoot installation on the day...
+ 
+ **If you do not see jupyter lab with these icons then something has gone wrong. Please contact me in advance** since we won't have time to troublehsoot installation on the day...
