@@ -101,7 +101,7 @@ After installing `conda`, verify that you can create a new environment.
  ```
  
  - You should notice the command line now begins `(test)`, this indicates the environment is activated.
- - Now we need to install a couple of python software packages, we do this with `pip` the Python package manager:
+ - Now we need to install some python software packages, we do this with `pip` the Python package manager:
  
  ```bash
  pip install jupyterlab pandas numpy
