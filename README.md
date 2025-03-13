@@ -1,7 +1,7 @@
 # Python in 30mins  
 Quickstart guide to using Python for data science in 30 minutes!
 
-## Install `conda`
+## Step 1: Install `conda`
 
 ### What is `conda`?
 
@@ -11,11 +11,11 @@ While `conda` is open source and free to use, it was originally developed as par
 
 ---
 
-## Windows
+### Windows
 
 1. **Download the Installer:**
    - Go to the [Miniforge GitHub releases page](https://github.com/conda-forge/miniforge/releases).
-   - Download the latest Windows installer. These are frequently updated. Look for a file similar to `Miniforge3-25.1.1-2-Windows-x86_64`.
+   - Download the latest Windows installer. These are frequently updated. Look for a file similar to `Miniforge3-25.1.1-2-Windows-x86_64`. You may need to click on a triangle toggle to see the latest releases (see screenshot).
 
 2. **Run the Installer:**
    - Double-click the downloaded `.exe` file.
@@ -23,13 +23,13 @@ While `conda` is open source and free to use, it was originally developed as par
    - See screenshots for suggested settings.
 
 3. **Initialise `conda`:**
-   - In the Start menu search for `miniforge prompt`.
+   - In the Windows Start menu search for `miniforge prompt`.
    - When miniforge prompt has opened, type `conda init` and hit return (see screenshot).
    - This will initialise conda.
 
 ---
 
-## macOS
+### macOS
 
 1. **Download the Installer:**
    - Visit the [Miniforge GitHub releases page](https://github.com/conda-forge/miniforge/releases).
@@ -58,9 +58,10 @@ While `conda` is open source and free to use, it was originally developed as par
 
 ---
 
-## Creating a Conda Environment
+## Step 2: Creating a test conda Environment
 
 After installing `conda`, verify that you can create a new environment. Open your terminal (Command Prompt, PowerShell, or macOS Terminal) and run:
 
 ```bash
 conda create --name test python=3.10 -y
+```
