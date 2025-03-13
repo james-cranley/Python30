@@ -15,7 +15,7 @@ While `conda` is open source and free to use, it was originally developed as par
 
 1. **Download the Installer:**
    - Go to the [Miniforge GitHub releases page](https://github.com/conda-forge/miniforge/releases).
-   - Download the latest Windows installer. These are frequently updated. Look for a file similar to `Miniforge3-25.1.1-2-Windows-x86_64`. You may need to click on a triangle toggle to see the latest releases (see screenshot).
+   - Download the latest Windows installer. These are frequently updated. Look for a file similar to `Miniforge3-...-Windows-x86_64`. You may need to click on a triangle **Assests** toggle to see the latest releases (see screenshot).
 
    <details>
      <summary>Screenshot of Download Page</summary>
@@ -26,6 +26,16 @@ While `conda` is open source and free to use, it was originally developed as par
    - Double-click the downloaded `.exe` file.
    - Follow the installation prompts. You can typically accept the default settings.
    - See screenshots for suggested settings.
+  
+  <details>
+  <summary>Show Windows Installer Screenshots</summary>
+  <img src="./screenshots/win_install_1.png" alt="Installer Step 1">
+  <br>
+  <img src="./screenshots/win_install_2.png" alt="Installer Step 2">
+  <br>
+  <img src="./screenshots/win_install_3.png" alt="Installer Step 3">
+  </details>
+
 
 3. **Initialise `conda`:**
    - In the Windows Start menu search for `miniforge prompt`.
@@ -39,12 +49,12 @@ While `conda` is open source and free to use, it was originally developed as par
 1. **Download the Installer:**
    - Visit the [Miniforge GitHub releases page](https://github.com/conda-forge/miniforge/releases).
    - Download the installer for your Mac:
-     - **Intel-based Macs:** Download `Miniforge3-MacOSX-x86_64.sh`
-     - **Apple Silicon (M1/M2/M3/M4):** Download `Miniforge3-MacOSX-arm64.sh`
+     - **Intel-based Macs:** Download `Miniforge3-...-MacOSX-x86_64.sh` (red arrow in screenshot)
+     - **Apple Silicon (M1/M2/M3/M4):** Download `Miniforge3-...-MacOSX-arm64.sh` (blue arrow in screenshot)
 
      <details>
      <summary>Screenshot of Download Page</summary>
-     <img src="./screenshots/mac_releases.png" alt="MiniForge Releases as of 2025-03-13. Blue arrow if Mac silicon, Red arrow if Intel chip.">
+     <img src="./screenshots/mac_releases.png" alt="MiniForge Releases as of 2025-03-13. , Red arrow if Intel chip.">
      </details>
 
 2. **Run the Installer:**
