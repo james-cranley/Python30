@@ -17,6 +17,11 @@ While `conda` is open source and free to use, it was originally developed as par
    - Go to the [Miniforge GitHub releases page](https://github.com/conda-forge/miniforge/releases).
    - Download the latest Windows installer. These are frequently updated. Look for a file similar to `Miniforge3-25.1.1-2-Windows-x86_64`. You may need to click on a triangle toggle to see the latest releases (see screenshot).
 
+   <details>
+     <summary>Show Screenshot of Download Page</summary>
+     <img src="./screenshots/releases.png" alt="MiniForge Releases page 2025-03-13">
+   </details>
+
 2. **Run the Installer:**
    - Double-click the downloaded `.exe` file.
    - Follow the installation prompts. You can typically accept the default settings.
