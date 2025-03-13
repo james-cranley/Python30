@@ -97,7 +97,7 @@ You can skip to Step 1 now. If you are interested, there is some info below on w
 
       2. Press `return` to accept the default location (`/Users/<yourusername>/miniforge3`)
       3. It will then install (takes about 1 min).
-      4. ‼️ After installing it gives you a confusing screen (see screenshot). The question is `Do you wish to update your shell profile...?`. Enter `yes` and press `return`.
+      4. ‼️ After installing it gives you a confusing screen (see screenshot). The question is `Do you wish to update your shell profile...?`. Type **`yes`** and press `return`.
   
          <details>
            <summary>Screenshot: Update shell profile</summary>
