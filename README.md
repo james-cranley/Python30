@@ -18,7 +18,7 @@ While `conda` is open source and free to use, it was originally developed as par
 
 **But I am an `R` person...**
 
-We forgive you. This session is just aimed at demystifying coding and for brevity we focus on one language: Python. Also `conda` works well for isolating `R` environments.
+We forgive you. This session is just aimed at demystifying coding and for brevity we focus on one language: Python. Also, `conda` works well for isolating `R` environments.
 
 
 ## Step 1: Install `conda`
