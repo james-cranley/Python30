@@ -15,20 +15,17 @@ While `conda` is open source and free to use, it was originally developed as par
 
 1. **Download the Installer:**
    - Go to the [Miniforge GitHub releases page](https://github.com/conda-forge/miniforge/releases).
-   - Download the latest Windows installer (look for a file similar to `Miniforge3-Windows-x86_64.exe`).
+   - Download the latest Windows installer. These are frequently updated. Look for a file similar to `Miniforge3-25.1.1-2-Windows-x86_64`.
 
 2. **Run the Installer:**
    - Double-click the downloaded `.exe` file.
    - Follow the installation prompts. You can typically accept the default settings.
-   - **Important:** If prompted, allow the installer to add `conda` to your system PATH so that you can run `conda` commands from any terminal.
+   - See screenshots for suggested settings.
 
-3. **Verify the Installation:**
-   - Open a terminal. If you’re not using Anaconda Prompt, you can use the standard Windows Command Prompt or PowerShell.
-   - Run the following command:
-     ```bash
-     conda --version
-     ```
-   - You should see the conda version printed on the screen.
+3. **Initialise `conda`:**
+   - In the Start menu search for `miniforge prompt`.
+   - When miniforge prompt has opened, type `conda init` and hit return (see screenshot).
+   - This will initialise conda.
 
 ---
 
@@ -38,7 +35,7 @@ While `conda` is open source and free to use, it was originally developed as par
    - Visit the [Miniforge GitHub releases page](https://github.com/conda-forge/miniforge/releases).
    - Download the installer for your Mac:
      - **Intel-based Macs:** Download `Miniforge3-MacOSX-x86_64.sh`
-     - **Apple Silicon (M1/M2):** Download `Miniforge3-MacOSX-arm64.sh`
+     - **Apple Silicon (M1/M2/M3/M4):** Download `Miniforge3-MacOSX-arm64.sh`
 
 2. **Run the Installer:**
    - Open the **Terminal** application.
