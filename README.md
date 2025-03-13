@@ -79,6 +79,7 @@ We forgive you. This session is just aimed at demystifying coding and for brevit
      bash Miniforge3-$(uname)-$(uname -m).sh
      ```
    - Follow the on-screen instructions to complete the installation.
+   - Once finished, exit Terminal to confirm installation.
 
 ---
 
