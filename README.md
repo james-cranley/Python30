@@ -10,6 +10,10 @@ In advance of this session please install `conda`. Instructions are below. If qu
 
 While `conda` is open source and free to use, it was originally developed as part of the Anaconda suite. However, Anaconda includes many packages that you might not need and, in some cases, may lead to costs (especially in certain academic or enterprise settings). **Miniforge** is a lightweight installer for `conda` that intentionally avoids channels which might incur costs.
 
+**I an a `R` person though**
+
+We forgive you. This session is just aimed at demystifying coding and for brevity we focus on one language: python. Also `conda` works well for isolating `R` environments.
+
 
 ## Step 1: Install `conda`
 ---
