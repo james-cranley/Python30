@@ -30,7 +30,7 @@ We forgive you. This session is just aimed at demystifying coding and for brevit
 
 1. **Download the Installer:**
    - Go to the [Miniforge GitHub releases page](https://github.com/conda-forge/miniforge/releases).
-   - Download the latest Windows installer. These are frequently updated. Look for a file similar to `Miniforge3-...-Windows-x86_64`. You may need to click on a triangle **Assets** toggle to see the latest releases (see screenshot).
+   - Click on the latest Windows installer to download it. These are frequently updated. Look for a file similar to `Miniforge3-...-Windows-x86_64`. You may need to click on a triangle **Assets** toggle to see the latest releases (see screenshot).
 
    <details>
      <summary>Screenshot of Download Page</summary>
