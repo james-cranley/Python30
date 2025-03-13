@@ -85,4 +85,4 @@ After installing `conda`, verify that you can create a new environment.
   <summary>Screenshot `conda` test enviroment creation</summary>
   <img src="./screenshots/win_conda_env_created.png" alt="Successful env creation">
  </details>
-- If you got to this stage then you can code along on the day 👌
+ - If you got to this stage then you can code along on the day 🙌
