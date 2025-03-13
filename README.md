@@ -85,8 +85,32 @@ After installing `conda`, verify that you can create a new environment.
  conda create --name test python=3.10 -y # the -y flag answers 'yes' to questions during environment creation 
  ```
  - You should see it spring into action and install a bunch of stuff.
- - If successful it will conclude by suggesting you activate the environment (see screenshot). **If you do not see this then contact me in advance**. We won't have time to troublehsoot conda installation on the day...
+ - This has created an environment called `test` that has its own version of Python (v3.10) installed in it.
+ - If successful it will conclude by suggesting you activate the environment (see screenshot).
  <details>
   <summary>Screenshot `conda` test enviroment creation</summary>
   <img src="./screenshots/win_conda_env_created.png" alt="Successful env creation">
  </details>
+ - Now that you have created the environment you need to activate it, run:
+ ```bash
+ conda activate test
+ ```
+ - You should notice the command line now begins `(test)`, this indicates the environment is activated.
+ - Now we need to install a couple of python software packages, we do this with `pip` the Python package manager:
+ ```bash
+ pip install jupyterlab pandas numpy
+ ```
+ - Now we need to 'register' the kernel (this makes it accessible to jupyter lab)
+ ```bash
+ python -m ipykernel install --user --name test
+ ```
+ - Finally, we will start a jupyter lab session
+ ```bash
+ jupyter lab
+ ```
+ - This should open your browser to a page that looks like the screenshot below. Note the Python icons with `test` written in them (I've highlighted them in red boxes).
+ <details>
+  <summary>Screenshot Jupyter Lab</summary>
+  <img src="./screenshots/win_jupyterlab.png" alt="WHat Jupyter Lab should look like if it works.">
+ </details>
+ - **If you do not see this then contact me in advance**. We won't have time to troublehsoot installation on the day...
