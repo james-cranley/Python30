@@ -64,7 +64,7 @@ You can skip to Step 1 now. If you are interested, there is some info below on w
 4. **Initialise `conda`:**
    - In the Windows Start menu search for **Miniforge Prompt**.
    - When Miniforge Prompt has opened, type `conda init` and press `return` (see screenshot).
-   - After it runs exit Miniforge Prompt to confirm changes.
+   - After it runs, quit Miniforge Prompt to confirm changes.
    - `conda` has now been initialised and `conda` commands should work in the Miniforge Prompt application as well as other terminal applications such as Command Prompt (installed on Windows machines by default)
 
       <details>
