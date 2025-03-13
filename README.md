@@ -18,8 +18,8 @@ While `conda` is open source and free to use, it was originally developed as par
    - Download the latest Windows installer. These are frequently updated. Look for a file similar to `Miniforge3-25.1.1-2-Windows-x86_64`. You may need to click on a triangle toggle to see the latest releases (see screenshot).
 
    <details>
-     <summary>Show Screenshot of Download Page</summary>
-     <img src="./screenshots/releases.png" alt="MiniForge Releases page 2025-03-13">
+     <summary>Screenshot of Download Page</summary>
+     <img src="./screenshots/win_releases.png" alt="MiniForge Releases as of 2025-03-13">
    </details>
 
 2. **Run the Installer:**
@@ -41,6 +41,11 @@ While `conda` is open source and free to use, it was originally developed as par
    - Download the installer for your Mac:
      - **Intel-based Macs:** Download `Miniforge3-MacOSX-x86_64.sh`
      - **Apple Silicon (M1/M2/M3/M4):** Download `Miniforge3-MacOSX-arm64.sh`
+
+     <details>
+     <summary>Screenshot of Download Page</summary>
+     <img src="./screenshots/mac_releases.png" alt="MiniForge Releases as of 2025-03-13. Blue arrow if Mac silicon, Red arrow if Intel chip.">
+     </details>
 
 2. **Run the Installer:**
    - Open the **Terminal** application.
