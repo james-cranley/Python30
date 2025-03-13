@@ -14,19 +14,14 @@ Instructions to install `conda` (for Windows and Mac) are below, it should take 
 
 Note: This is a primer aimed to get people new to programming off the ground. If you are experienced it will be a bit dull for you!
 
+You can skip to Step 1 now. If you are interested, there is some info below on what `conda` actually is.
+
 <details>
   <summary>What is `conda`?</summary>
 
   [**`conda`**](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html) is a package and environment manager that allows you to install Python and associated packages in isolated environments on your computer. This means you can have different versions of Python and libraries working side by side without interference. Using isolated environments is a best practice that enhances reproducibility.
 
   While `conda` is open source and free to use, it was originally developed as part of the Anaconda suite. However, Anaconda includes many packages that you might not need and, in some cases, may lead to costs (especially in certain academic or enterprise settings). [**`Miniforge`**](https://github.com/conda-forge/miniforge) is a lightweight, open-source installer for `conda` that intentionally avoids channels which might incur costs.
-
-</details>
-
-<details>
-  <summary>But I am an `R` person...</summary>
-
-  We forgive you. This session is just aimed at demystifying coding and, for brevity, we focus on one language: Python. Also, `conda` works well for isolating `R` environments.
 
 </details>
 
