@@ -29,15 +29,23 @@ You can skip to Step 1 now. If you are interested, there is some info below on w
 ## Step 1: Install `conda`
 ---
 
-### Windows
+### **Windows**
 
 1. **Download the Installer:**
    - Installers are frequently updated. As of March 2025, you can download the latest Windows installer [HERE](https://github.com/conda-forge/miniforge/releases/download/25.1.1-2/Miniforge3-25.1.1-2-Windows-x86_64.exe)
    - Future versions can be downloaded from the Miniforge GitHub Releases page
-   - Windows will 
+   - Windows will say it doesn't trust the file. You can force it to 'keep anyway'.
+  
+     <details>
+       <summary>Screenshot: Ask Windows to 'trust' the download</summary>
+       <img src="./screenshots/win_download_installer_1.png" alt="Installer Step 1">
+       <br>
+       <img src="./screenshots/win_download_installer_2.png" alt="Installer Step 2">
+     </details>
 
 3. **Run the Installer:**
    - Double-click the downloaded `.exe` file.
+   - If you have a work laptop it may block you from installing it at this point.
    - Follow the installation prompts. You can typically accept the default settings.
    - See screenshots for suggested settings.
   
@@ -63,21 +71,28 @@ You can skip to Step 1 now. If you are interested, there is some info below on w
 
 ---
 
-### macOS
+### **macOS**
 
 1. **Download the Installer:**
    - Open the **Terminal** application (comes installed on all macs). You can search for 'Terminal' using spotlight (cmd+space).
-   - Copy/Paste the following code and hit return. This downloads the latest installer for your mac (and intelligently chooses the Mac Silicon or Intel installer)
+   - Copy/Paste the following code and press return. This downloads the latest installer for your mac (and intelligently chooses the Mac Silicon or Intel installer)
      ```bash
      curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
      ```
 
 2. **Run the Installer:**
-   - Now that the installer has downloaded, copy/paste the following and hit return. This executes the installer.
+   - Now that the installer has downloaded, copy/paste the following and press return. This executes the installer.
      ```bash
      bash Miniforge3-$(uname)-$(uname -m).sh
      ```
    - Follow the on-screen instructions to complete the installation.
+      1. Press return to start reviewing the licence. Then press the down arrow ⬇️ on your keyboard to go through the licence. It will eventually ask you to enter yes/no, type `yes` and press return to accept the terms (see screenshots).
+      2. Press return to accept the default location (`/Users/<yourusername>/miniforge3`)
+      3. It will then install (takes about 1 min). ‼️ After installing it gives you a confusing screen (see screenshot). The question is `Do you wish to update your shell profile...`. Enter `yes` and press return.
+             <details>
+               <summary>Screenshot: Update shell profile</summary>
+               <img src="./screenshots/mac_conda_install_4.png" alt="Update shell profile">
+             </details>
    - Once finished, exit Terminal to confirm installation.
 
 ---
