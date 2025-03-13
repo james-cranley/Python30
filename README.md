@@ -86,7 +86,7 @@ We forgive you. This session is just aimed at demystifying coding and for brevit
 
 After installing `conda`, verify that you can create a new environment. 
 
- - Open your terminal application (e.g. Windows: Command Prompt, or macOS:Terminal).
+ - Open your terminal application (e.g. Windows: Command Prompt, or macOS: Terminal).
  - Create your first conda environment by typing in the code below and hitting return.
  
  ```bash
