@@ -60,7 +60,6 @@ While `conda` is open source and free to use, it was originally developed as par
      ```bash
      curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
      ```
-   - 
 
 2. **Run the Installer:**
    - Now that the installer has downloaded, copy/paste the following and hit return. This executes the installer.
@@ -75,15 +74,14 @@ While `conda` is open source and free to use, it was originally developed as par
 
 After installing `conda`, verify that you can create a new environment. 
 
-    - Open your terminal application (e.g. Windows: Command Prompt, or macOS:Terminal).
-    - Create your first conda environment by typing in the code below and hitting return.
-    ```bash
-    conda create --name test python=3.10 -y # the -y flag answers 'yes' to questions during environment creation 
-    ```
-    - You should see it spring into action and install a bunch of stuff.
-    If successful it will conclude by suggesting you activate the environment.
-
-    <details>
-     <summary>Screenshot `conda` test enviroment creation</summary>
-     <img src="./screenshots/win_conda_env_created.png" alt="Successful env creation">
-    </details>
+ - Open your terminal application (e.g. Windows: Command Prompt, or macOS:Terminal).
+ - Create your first conda environment by typing in the code below and hitting return.
+ ```bash
+ conda create --name test python=3.10 -y # the -y flag answers 'yes' to questions during environment creation 
+ ```
+ - You should see it spring into action and install a bunch of stuff.
+ - If successful it will conclude by suggesting you activate the environment.
+ <details>
+  <summary>Screenshot `conda` test enviroment creation</summary>
+  <img src="./screenshots/win_conda_env_created.png" alt="Successful env creation">
+ </details>
