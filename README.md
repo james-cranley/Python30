@@ -76,6 +76,7 @@ After installing `conda`, verify that you can create a new environment.
 
  - Open your terminal application (e.g. Windows: Command Prompt, or macOS:Terminal).
  - Create your first conda environment by typing in the code below and hitting return.
+ - If you got to this stage then you can code along on the day 🙌
  ```bash
  conda create --name test_env python=3.10 -y # the -y flag answers 'yes' to questions during environment creation 
  ```
@@ -85,4 +86,3 @@ After installing `conda`, verify that you can create a new environment.
   <summary>Screenshot `conda` test enviroment creation</summary>
   <img src="./screenshots/win_conda_env_created.png" alt="Successful env creation">
  </details>
- - If you got to this stage then you can code along on the day 🙌
