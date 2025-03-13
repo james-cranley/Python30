@@ -99,7 +99,7 @@ After installing `conda`, verify that you can create a new environment.
  - If successful it will conclude by suggesting you activate the environment (see screenshot).
     
     <details>
-     <summary>Screenshot `conda` test enviroment creation</summary>
+     <summary>Screenshot `conda` test environment creation</summary>
      <img src="./screenshots/win_conda_env_created.png" alt="Successful env creation">
     </details>
  
