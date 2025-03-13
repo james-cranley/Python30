@@ -88,12 +88,12 @@ You can skip to Step 1 now. If you are interested, there is some info below on w
    - Follow the on-screen instructions to complete the installation:
       1. Press `return` to start reviewing the licence. Then press the down arrow ⬇️ on your keyboard to go through the licence. It will eventually ask you to enter yes/no, type `yes` and press `return` to accept the terms (see screenshots).
   
-             <details>
-               <summary>Screenshots: review conda licence</summary>
-               <img src="./screenshots/mac_conda_install_1.png" alt="Installer Step 1">
-               <br>
-               <img src="./screenshots/mac_conda_install_2.png" alt="Installer Step 2">
-             </details>
+       <details>
+         <summary>Screenshots: review conda licence</summary>
+         <img src="./screenshots/mac_conda_install_1.png" alt="Installer Step 1">
+         <br>
+         <img src="./screenshots/mac_conda_install_2.png" alt="Installer Step 2">
+       </details>
 
       2. Press `return` to accept the default location (`/Users/<yourusername>/miniforge3`)
       3. It will then install (takes about 1 min).
