@@ -2,7 +2,7 @@
 ---
 
 *Last Updated: 2025-03-13*  
-*Contact: [james.cranley@nhs.net](mailto:james.cranley@nhs.net)*
+*Contact: [james.cranley@doctors.org.uk](mailto:james.cranley@doctors.org.uk)*
 
 This will be a 'quick start' guide to using Python for data science in 30 minutes!
 
