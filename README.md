@@ -67,7 +67,7 @@ We forgive you. This session is just aimed at demystifying coding and for brevit
 ### macOS
 
 1. **Download the Installer:**
-   - Open the **Terminal** application (comes installed on all macs).
+   - Open the **Terminal** application (comes installed on all macs). You can search for 'Terminal' using spotlight (cmd+space).
    - Copy/Paste the following code and hit return. This downloads the latest installer for your mac (and intelligently chooses the Mac Silicon or Intel installer)
      ```bash
      curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
