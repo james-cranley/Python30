@@ -2,7 +2,7 @@
 
 A QuickStart guide to using Python for data science in 30 minutes!
 
-In advance of this session please install `conda`. Instructions are below. If questions please email me. It should take <5 mins.
+If you want to code along on the day, **in advance of the session** please install `conda`. Instructions are below, it _really_ should take <5 mins. You're successful if you've completed Step 2 😊. If you have questions please email me.
 
 **What is `conda`?**
 
