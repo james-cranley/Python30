@@ -104,12 +104,13 @@ You can skip to Step 1 now. If you are interested, there is some info below on w
            <img src="./screenshots/mac_conda_install_4.png" alt="Update shell profile">
          </details>
 
-      5. It will conclude by saying `==> For changes to take effect, close and re-open your current shell. <==`. You can either quit the Terminal (`cmd`+`q`) or type `exit` then press `return`.
+      5. It will conclude by saying:
     
          ```bash
          ==> For changes to take effect, close and re-open your current shell. <==
          ```
-    
+         You can either quit the Terminal (`cmd`+`q`) or type `exit` then press `return`.
+         
          <details>
            <summary>Screenshot: Complete installation</summary>
            <img src="./screenshots/mac_conda_install_5.png" alt="Complete installation">
