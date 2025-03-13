@@ -48,7 +48,7 @@ While `conda` is open source and free to use, it was originally developed as par
    </details>
 
  4. **Make a test environment:**
-    - Open a terminal applciation (e.g. Start >> Command Prompt) and create your first conda environment.
+    - Open a terminal applciation (e.g. Start >> Command Prompt) and create your first conda environment by typing in the code below and hitting return.
     ```bash
     conda create --name test python=3.10 -y # the -y flag answers 'yes' to questions during environment creation 
     ```
