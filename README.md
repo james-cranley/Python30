@@ -70,7 +70,7 @@ While `conda` is open source and free to use, it was originally developed as par
 
 ---
 
-## Step 2: Creating a test conda Environment
+## Step 2: Creating a test `conda` environment
 
 After installing `conda`, verify that you can create a new environment. 
 
