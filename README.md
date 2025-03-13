@@ -32,10 +32,10 @@ We forgive you. This session is just aimed at demystifying coding and for brevit
    - Go to the [Miniforge GitHub releases page](https://github.com/conda-forge/miniforge/releases).
    - Click on the latest Windows installer to download it. These are frequently updated. Look for a file similar to `Miniforge3-...-Windows-x86_64`. You may need to click on a triangle **Assets** toggle to see the latest releases (see screenshot).
 
-   <details>
-     <summary>Screenshot of Download Page</summary>
-     <img src="./screenshots/win_releases.png" alt="MiniForge Releases as of 2025-03-13">
-   </details>
+      <details>
+        <summary>Screenshot of Download Page</summary>
+        <img src="./screenshots/win_releases.png" alt="MiniForge Releases as of 2025-03-13">
+      </details>
 
 2. **Run the Installer:**
    - Double-click the downloaded `.exe` file.
@@ -57,10 +57,10 @@ We forgive you. This session is just aimed at demystifying coding and for brevit
    - After it runs exit Miniforge Prompt to confirm changes.
    - `conda` has now been initialised and `conda` commands should work in the Miniforge Prompt application as well as other terminal applications such as Command Prompt (installed on Windows machines by default)
 
-   <details>
-     <summary>Screenshot `conda` intialisation</summary>
-     <img src="./screenshots/win_conda_init.png" alt="Running conda init">
-   </details>
+      <details>
+        <summary>Screenshot `conda` intialisation</summary>
+        <img src="./screenshots/win_conda_init.png" alt="Running conda init">
+      </details>
 
 ---
 
@@ -96,11 +96,11 @@ After installing `conda`, verify that you can create a new environment.
  - You should see it spring into action and install a bunch of stuff.
  - This has created an environment called `test` that has its own version of Python (v3.10) installed in it.
  - If successful it will conclude by suggesting you activate the environment (see screenshot).
- 
- <details>
-  <summary>Screenshot `conda` test enviroment creation</summary>
-  <img src="./screenshots/win_conda_env_created.png" alt="Successful env creation">
- </details>
+    
+    <details>
+     <summary>Screenshot `conda` test enviroment creation</summary>
+     <img src="./screenshots/win_conda_env_created.png" alt="Successful env creation">
+    </details>
  
  - Now that you have created the environment you need to activate it, run:
  
@@ -129,9 +129,9 @@ After installing `conda`, verify that you can create a new environment.
  
  - This should open your browser to a page that looks like the screenshot below. Note the Python icons with `test` written in them (I've highlighted them in red boxes).
  
- <details>
-  <summary>Screenshot Jupyter Lab</summary>
-  <img src="./screenshots/win_jupyterlab.png" alt="WHat Jupyter Lab should look like if it works.">
- </details>
- 
+    <details>
+     <summary>Screenshot Jupyter Lab</summary>
+     <img src="./screenshots/win_jupyterlab.png" alt="WHat Jupyter Lab should look like if it works.">
+    </details>
+    
  **If you do not see jupyter lab with these icons then something has gone wrong. Please contact me in advance** since we won't have time to troubleshoot installation on the day...
