@@ -32,15 +32,11 @@ You can skip to Step 1 now. If you are interested, there is some info below on w
 ### Windows
 
 1. **Download the Installer:**
-   - Go to the [Miniforge GitHub releases page](https://github.com/conda-forge/miniforge/releases).
-   - Click on the latest Windows installer to download it. These are frequently updated. Look for a file with a name beginning/ending `Miniforge3-...-Windows-x86_64`. You may need to click on a triangle **Assets** toggle to see the latest releases (see screenshot).
+   - Installers are frequently updated. As of March 2025, you can download the latest Windows installer [HERE](https://github.com/conda-forge/miniforge/releases/download/25.1.1-2/Miniforge3-25.1.1-2-Windows-x86_64.exe)
+   - Future versions can be downloaded from the Miniforge GitHub Releases page
+   - Windows will 
 
-      <details>
-        <summary>Screenshot of Download Page</summary>
-        <img src="./screenshots/win_releases.png" alt="MiniForge Releases as of 2025-03-13">
-      </details>
-
-2. **Run the Installer:**
+3. **Run the Installer:**
    - Double-click the downloaded `.exe` file.
    - Follow the installation prompts. You can typically accept the default settings.
    - See screenshots for suggested settings.
@@ -54,7 +50,7 @@ You can skip to Step 1 now. If you are interested, there is some info below on w
        <img src="./screenshots/win_install_3.png" alt="Installer Step 3">
      </details>
 
-3. **Initialise `conda`:**
+4. **Initialise `conda`:**
    - In the Windows Start menu search for **Miniforge Prompt**.
    - When Miniforge Prompt has opened, type `conda init` and hit return (see screenshot).
    - After it runs exit Miniforge Prompt to confirm changes.
