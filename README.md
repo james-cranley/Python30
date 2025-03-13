@@ -4,6 +4,8 @@ A QuickStart guide to using Python for data science in 30 minutes!
 
 If you want to code along on the day, **in advance of the session** please install `conda`. Instructions are below, it _really_ should take <5 mins. You're successful if you've completed Step 2 😊. If you have questions please email me.
 
+This is a primer aimed to get people new to programming off the ground. If you are experienced it will be a bit dull for you!
+
 **What is `conda`?**
 
 `conda` is a package and environment manager that allows you to install Python and associated packages in isolated environments on your computer. This means you can have different versions of Python and libraries working side by side without interference. Using isolated environments is a best practice that enhances reproducibility.
@@ -81,6 +83,7 @@ After installing `conda`, verify that you can create a new environment.
  - Open your terminal application (e.g. Windows: Command Prompt, or macOS:Terminal).
  - Create your first conda environment by typing in the code below and hitting return.
  - If you got to this stage then you can code along on the day 🙌
+ 
  ```bash
  conda create --name test python=3.10 -y # the -y flag answers 'yes' to questions during environment creation 
  ```
@@ -92,22 +95,30 @@ After installing `conda`, verify that you can create a new environment.
   <img src="./screenshots/win_conda_env_created.png" alt="Successful env creation">
  </details>
  - Now that you have created the environment you need to activate it, run:
+ 
  ```bash
  conda activate test
  ```
+ 
  - You should notice the command line now begins `(test)`, this indicates the environment is activated.
  - Now we need to install a couple of python software packages, we do this with `pip` the Python package manager:
+ 
  ```bash
  pip install jupyterlab pandas numpy
  ```
+ 
  - Now we need to 'register' the kernel (this makes it accessible to jupyter lab)
+ 
  ```bash
  python -m ipykernel install --user --name test
  ```
- - Finally, we will start a jupyter lab session
+ 
+ - Finally, we will start a jupyter lab session (we will explain what this is)
+ 
  ```bash
  jupyter lab
  ```
+ 
  - This should open your browser to a page that looks like the screenshot below. Note the Python icons with `test` written in them (I've highlighted them in red boxes).
  <details>
   <summary>Screenshot Jupyter Lab</summary>
