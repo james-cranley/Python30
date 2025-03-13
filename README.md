@@ -4,15 +4,18 @@
 *Last Updated: 2025-03-13*  
 *Contact: [james.cranley@doctors.org.uk](mailto:james.cranley@doctors.org.uk)*
 
-This will be a 'quick start' guide to using Python for data science in 30 minutes!
+This session will be a 'quick start' guide to using Python for data science in 30 minutes!
+
+Disclaimer: This is a primer designed to get people new to programming 'off the ground'. If you are experienced it may be a bit dull! Also, I am not _expert_, I am merely sharing simple methods that work.
+
+## Prepare for the session
 
 If you want to code along on the day please install `conda` on your own laptop **in advance of the session**.
 
-Instructions to install `conda` (for Windows and Mac) are below, it should take <5 mins. You're successful if you've completed Step 2 😊. If you have questions please email me.
+Instructions to install `conda` (for Windows and Mac) are below. It looks like a lot, but it should take <5 mins. You're successful if you've completed Step 2 😊. If you have questions please email me.
 
 ‼️ If you are using a 'work laptop' you may be blocked from installing new software, so use your own laptop if you have one.
 
-Note: This is a primer aimed to get people new to programming off the ground. If you are experienced it will be a bit dull for you!
 
 You can skip to Step 1 now. If you are interested, there is some info below on what `conda` actually is.
 
