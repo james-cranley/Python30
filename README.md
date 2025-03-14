@@ -6,7 +6,7 @@
 
 This session will be a 'quick start' guide to using Python for data science in 30 minutes!
 
-Disclaimer: This is a primer designed to get people new to programming 'off the ground'. If you are experienced it may be a bit dull! Also, I am not _expert_, I am merely sharing simple methods that work.
+Disclaimer: This is a primer designed to get people new to programming 'off the ground'. If you are experienced it may be a bit dull!
 
 ## Prepare for the session
 
