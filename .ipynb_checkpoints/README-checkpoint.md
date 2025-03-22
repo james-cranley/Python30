@@ -8,11 +8,11 @@ This session will be a 'quick start' guide to using Python for data science in 3
 
 Disclaimer: This is a primer designed to get people new to programming 'off the ground'. If you are experienced it may be a bit dull!
 
-## Prepare for the session
+## 5 min preparation for the session
 
 If you want to code along on the day please install `conda` on your own laptop **in advance of the session**.
 
-Instructions to install `conda` (for Windows and Mac) are below. It looks like a lot, but it should take <5 mins. You're successful if you've completed Step 2 😊. If you have questions please email me.
+Instructions to install `conda` (for Windows and Mac) are below. It looks like a lot, but it should take 5 mins. You're successful if you've completed Step 2 😊. If you have questions please email me.
 
 ‼️ If you are using a 'work laptop' you may be blocked from installing new software, so use your own laptop if you have one.
 
@@ -151,7 +151,7 @@ After installing `conda`, verify that you can create a new environment.
  - We now need to install some Python software packages (at present all we have is python itself). To do this with `pip` the Python package manager. Copy/paste the code below and press `return` (NB this may take 2 mins and it pauses at the end, **wait until you have a flashing cursor again before continuing**):
  
  ```bash
- pip install jupyterlab pandas numpy matplotlib seaborn
+ pip install jupyterlab pandas numpy matplotlib seaborn openpyxl
  ```
  
  - Now we need to 'register' the kernel (this makes it accessible to jupyter lab). Copy/paste the code below and press `return`:

@@ -151,7 +151,7 @@ After installing `conda`, verify that you can create a new environment.
  - We now need to install some Python software packages (at present all we have is python itself). To do this with `pip` the Python package manager. Copy/paste the code below and press `return` (NB this may take 2 mins and it pauses at the end, **wait until you have a flashing cursor again before continuing**):
  
  ```bash
- pip install jupyterlab pandas numpy matplotlib seaborn
+ pip install jupyterlab pandas numpy matplotlib seaborn openpyxl
  ```
  
  - Now we need to 'register' the kernel (this makes it accessible to jupyter lab). Copy/paste the code below and press `return`:
